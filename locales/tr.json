@@ -1,0 +1,64 @@
+{
+  "metedata": {
+    "title": "Turkey Mentioned",
+    "description": "Discover and share Turkey-Mentioned, the popular Turkish internet meme filled with Turkish flags and wolf howls. Explore iconic meme texts and share them with a click."
+  },
+  "language-switcher": {
+    "switch-language": "Dili Değiştir",
+    "language-selection": "Dil Seçimi",
+    "switch-to": "{name} diline geç"
+  },
+  "home": {
+    "title": "<cool>Turkey Mentioned</cool><br></br>'e hoş geldin",
+    "description": "Turkey-Mentioned, kullanıcıların yorum bölümlerini vatansever mesajlarla doldurduğu popüler bir Türk internet memesidir. İkonik Turkey-Mentioned metinlerini keşfedin ve bir tıkla paylaşın.",
+    "coming-soon": "Yakında Gelecek",
+    "scroll": "Keşfetmek için kaydırın",
+    "feature": {
+      "1": {
+        "title": "İkonik Memeleri Keşfedin",
+        "description": "İnterneti kasıp kavuran ünlü Turkey-Mentioned memelerinin koleksiyonunu inceleyin. Her meme, Türk kullanıcıların uluslararası başlıklara yaptıkları yaratıcı, bayrak dolu yanıtları içerir."
+      },
+      "2": {
+        "title": "Eğlenceyi Paylaşın",
+        "description": "Turkey-Mentioned'ı seviyor musunuz? Favori memelerinizi tek bir tıkla paylaşın! Sosyal medyada eğlenceyi yayarak arkadaşlarınıza Türk internet kültürünün en iyilerini gösterin."
+      },
+      "3": {
+        "title": "Turkey-Mentioned Nedir?",
+        "description": "Turkey-Mentioned memesinin arkasındaki tarihi öğrenin. Türk internet gururunun viral bir sembolü haline nasıl geldiğini ve bugün hala çevrimiçi topluluklarda nasıl gelişmeye devam ettiğini anlayın."
+      }
+    }
+  },
+  "faq": {
+    "title": "Sıkça Sorulan Sorular",
+    "items": [
+      {
+        "question": "Turkey-Mentioned memesi nedir?",
+        "answer": "Turkey-Mentioned, Türk kullanıcıların yabancı paylaşımların yorum bölümlerini Türk bayrakları, kurt ulumaları ve vatansever ifadelerle doldurduğu popüler bir memedir. Bu, Türk internet kültürünün eğlenceli bir simgesi haline gelmiştir."
+      },
+      {
+        "question": "Turkey-Mentioned memelerini siteden nasıl kopyalayabilirim?",
+        "answer": "Turkey-Mentioned metinlerini inceleyin ve her memenin yanındaki “Kopyala” butonuna tıklayın. Daha sonra bu metni istediğiniz yorum bölümüne veya sosyal medya platformuna yapıştırabilirsiniz."
+      },
+      {
+        "question": "Turkey-Mentioned memesi nereden ortaya çıktı?",
+        "answer": "Bu meme, Türk kullanıcıların sosyal medya platformlarında uluslararası paylaşımlara vatansever ve esprili mesajlarla yorum yapmaya başlamasıyla ortaya çıktı. Kısa sürede viral bir trend haline gelerek, Türk topluluklarında gururun bir sembolü oldu."
+      },
+      {
+        "question": "Kendi Turkey-Mentioned mememi siteye ekleyebilir miyim?",
+        "answer": "Evet! Topluluk katkılarını memnuniyetle kabul ediyoruz. Eğer benzersiz bir Turkey-Mentioned yorumu veya memeniz varsa, bizimle paylaşabilirsiniz ve belki de sitede öne çıkarabiliriz."
+      },
+      {
+        "question": "Bu site sadece Türk kullanıcılar için mi?",
+        "answer": "Kesinlikle değil! Meme Türk kültürüne dayansa da, herkes bu memeleri keyifle inceleyebilir, paylaşabilir ve keşfedebilir. Türk internet mizahını öğrenmenin ve toplulukla etkileşimde bulunmanın eğlenceli bir yolu."
+      },
+      {
+        "question": "Meme nedir?",
+        "answer": "Meme, internet üzerinde hızla yayılan ve kullanıcılar arasında paylaşılan, genellikle esprili veya ironik içeriklerdir. Türkçede bu terim, zaman zaman 'caps' veya 'internet esprisi' olarak da kullanılmaktadır."
+      }
+    ]
+  },
+  "not-found-page": {
+    "title": "404 Sayfa Bulunamadı",
+    "back-to-home": "Anasayfaya Dön"
+  }
+}

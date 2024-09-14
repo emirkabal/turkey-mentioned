@@ -1,3 +1,5 @@
+"use client";
+
 import {
   Accordion,
   AccordionContent,
@@ -5,55 +7,50 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-type FAQItem = {
-  question: string;
-  answer: string;
-};
-
-const faqData: FAQItem[] = [
-  {
-    question: "What is the Turkey-Mentioned meme?",
-    answer:
-      "Turkey-Mentioned is a popular meme where Turkish users flood the comment sections of foreign posts with messages filled with Turkish flags, wolf howls, and patriotic statements. It has become a fun symbol of Turkish internet culture.",
-  },
-  {
-    question: "How can I copy Turkey-Mentioned memes from the site?",
-    answer:
-      "Simply browse the collection of Turkey-Mentioned texts and click the “Copy” button next to each meme. You can then paste it into any comment section or social media platform.",
-  },
-  {
-    question: "Where did the Turkey-Mentioned meme originate?",
-    answer:
-      "The meme began on social media platforms when Turkish users started commenting on international posts with patriotic and humorous messages. It quickly became a viral trend, symbolizing Turkish pride in online communities.",
-  },
-  {
-    question: "an I contribute my own Turkey-Mentioned meme to the site?",
-    answer:
-      "Yes! We encourage community submissions. If you have a unique Turkey-Mentioned comment or meme, feel free to share it with us, and we might feature it on the site.",
-  },
-  {
-    question: "Is this site just for Turkish users?",
-    answer:
-      "Not at all! While the meme is rooted in Turkish culture, anyone can enjoy, share, and explore the memes. It’s a fun way to learn about Turkish internet humor and engage with the community.",
-  },
-];
+import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 export default function FAQComponent() {
+  const t = useTranslations("faq");
+  const list = t.raw("items") as { question: string; answer: string }[];
   return (
-    <section className="w-full max-w-3xl mx-auto p-6 py-56">
-      <h2 className="text-3xl font-bold mb-24 text-center">
-        Frequently Asked Questions
-      </h2>
-      <Accordion type="single" collapsible className="w-full">
-        {faqData.map((faq, index) => (
-          <AccordionItem key={index} value={`item-${index}`}>
-            <AccordionTrigger className="text-left">
-              {faq.question}
+    <motion.section
+      initial={{ y: 100, opacity: 0 }}
+      whileInView={{ y: 0, opacity: 1 }}
+      transition={{ ease: "easeInOut", duration: 0.75 }}
+      viewport={{ margin: "-425px", once: true }}
+      className="mx-auto w-full max-w-3xl px-6 py-56"
+    >
+      <h2 className="mb-24 text-center text-3xl font-bold">{t("title")}</h2>
+      <Accordion
+        type="single"
+        collapsible
+        defaultValue="item-0"
+        className="w-full"
+        itemScope
+        itemType="https://schema.org/FAQPage"
+      >
+        {list.map((faq, index) => (
+          <AccordionItem key={index} value={`item-${index}`} className="py-6">
+            <AccordionTrigger
+              className="text-left"
+              itemScope
+              itemProp="mainEntity"
+              itemType="https://schema.org/Question"
+            >
+              <span itemProp="name">{faq.question}</span>
             </AccordionTrigger>
-            <AccordionContent>{faq.answer}</AccordionContent>
+            <AccordionContent
+              className="dark:text-zinc-300"
+              itemScope
+              itemProp="acceptedAnswer"
+              itemType="https://schema.org/Answer"
+            >
+              <span itemProp="text">{faq.answer}</span>
+            </AccordionContent>
           </AccordionItem>
         ))}
       </Accordion>
-    </section>
+    </motion.section>
   );
 }

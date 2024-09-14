@@ -1,0 +1,60 @@
+{
+  "metedata": {
+    "title": "Turkey Mentioned",
+    "description": "Turkey-Mentioned'ı keşfedin ve paylaşın; Türk bayrakları ve kurt ulumalarıyla dolu popüler Türk internet memesi. İkonik meme metinlerini keşfedin ve bir tıkla paylaşın."
+  },
+  "language-switcher": {
+    "switch-language": "Switch Language",
+    "language-selection": "Language Selection",
+    "switch-to": "Switch to {name}"
+  },
+  "home": {
+    "title": "Welcome to the <cool>Turkey Mentioned</cool>",
+    "description": "Turkey-Mentioned is a popular Turkish internet meme where users flood comment sections with patriotic messages. Discover iconic Turkey-Mentioned texts and share them with a click.",
+    "coming-soon": "Coming Soon",
+    "scroll": "Scroll to explore",
+    "feature": {
+      "1": {
+        "title": "Discover Iconic Memes",
+        "description": "Explore a collection of famous Turkey-Mentioned memes that have taken the internet by storm. Each meme features creative, flag-filled responses from Turkish users in international threads."
+      },
+      "2": {
+        "title": "Share the Fun",
+        "description": "Love Turkey-Mentioned? Share your favorite memes with just one click! Spread the fun across social media and show your friends the best of Turkish internet culture."
+      },
+      "3": {
+        "title": "What Is Turkey-Mentioned?",
+        "description": "Learn the history behind the Turkey-Mentioned meme. Understand how it became a viral symbol of Turkish internet pride and how it continues to thrive in online communities today."
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "What is the Turkey-Mentioned meme?",
+        "answer": "Turkey-Mentioned is a popular meme where Turkish users flood the comment sections of foreign posts with messages filled with Turkish flags, wolf howls, and patriotic statements. It has become a fun symbol of Turkish internet culture."
+      },
+      {
+        "question": "How can I copy Turkey-Mentioned memes from the site?",
+        "answer": "Simply browse the collection of Turkey-Mentioned texts and click the “Copy” button next to each meme. You can then paste it into any comment section or social media platform."
+      },
+      {
+        "question": "Where did the Turkey-Mentioned meme originate?",
+        "answer": "The meme began on social media platforms when Turkish users started commenting on international posts with patriotic and humorous messages. It quickly became a viral trend, symbolizing Turkish pride in online communities."
+      },
+      {
+        "question": "Can I contribute my own Turkey-Mentioned meme to the site?",
+        "answer": "Yes! We encourage community submissions. If you have a unique Turkey-Mentioned comment or meme, feel free to share it with us, and we might feature it on the site."
+      },
+      {
+        "question": "Is this site just for Turkish users?",
+        "answer": "Not at all! While the meme is rooted in Turkish culture, anyone can enjoy, share, and explore the memes. It’s a fun way to learn about Turkish internet humor and engage with the community."
+      }
+    ]
+  },
+  "not-found-page": {
+    "title": "404 Not Found",
+    "back-to-home": "Back to Home"
+  }
+}
