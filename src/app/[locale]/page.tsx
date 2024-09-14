@@ -85,13 +85,13 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="mx-auto mt-24 max-w-lg space-y-96 lg:max-w-5xl">
+      <section className="mx-auto mt-24 max-w-lg space-y-72 lg:max-w-5xl lg:space-y-96">
         <motion.div
-          initial={{ x: 120, opacity: 0 }}
+          initial={{ x: "2vw", opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ ease: "easeInOut", duration: 0.8 }}
-          viewport={{ margin: "-425px", once: true }}
-          className="flex flex-col-reverse items-center justify-between gap-24 lg:flex-row"
+          viewport={{ amount: 0.5, once: true }}
+          className="flex flex-col-reverse items-center justify-between gap-12 text-center lg:flex-row lg:gap-24 lg:text-left"
         >
           <div className="p-4 lg:w-1/2">
             <h2 className="mb-4 text-3xl font-bold">{t("feature.1.title")}</h2>
@@ -110,11 +110,11 @@ export default function Home() {
         </motion.div>
 
         <motion.div
-          initial={{ x: -120, opacity: 0 }}
+          initial={{ x: "-2vw", opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ ease: "easeInOut", duration: 0.8 }}
-          viewport={{ margin: "-425px", once: true }}
-          className="flex flex-col-reverse items-center justify-between gap-24 lg:flex-row-reverse"
+          viewport={{ amount: 0.5, once: true }}
+          className="flex flex-col-reverse items-center justify-between gap-12 text-center lg:flex-row-reverse lg:gap-24 lg:text-left"
         >
           <div className="p-4 lg:w-1/2">
             <h2 className="mb-4 text-3xl font-bold">{t("feature.2.title")}</h2>
@@ -133,11 +133,11 @@ export default function Home() {
         </motion.div>
 
         <motion.div
-          initial={{ x: 120, opacity: 0 }}
+          initial={{ x: "2vw", opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ ease: "easeInOut", duration: 0.8 }}
-          viewport={{ margin: "-425px", once: true }}
-          className="flex flex-col-reverse items-center justify-between gap-24 lg:flex-row"
+          viewport={{ amount: 0.5, once: true }}
+          className="flex flex-col-reverse items-center justify-between gap-12 text-center lg:flex-row lg:gap-24 lg:text-left"
         >
           <div className="p-4 lg:w-1/2">
             <h2 className="mb-4 text-3xl font-bold">{t("feature.3.title")}</h2>

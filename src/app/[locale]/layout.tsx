@@ -35,7 +35,7 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
-      <body className={`${inter.className} dark overflow-x-hidden antialiased`}>
+      <body className={`${inter.className} dark antialiased`}>
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>

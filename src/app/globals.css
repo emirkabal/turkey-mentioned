@@ -60,8 +60,13 @@
   * {
     @apply border-border;
   }
+  html,
   body {
-    @apply bg-background text-foreground;
+    @apply overflow-x-hidden scroll-smooth bg-background text-foreground;
+  }
+
+  body {
+    @apply relative;
   }
 }
 

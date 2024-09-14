@@ -15,11 +15,11 @@ export default function FAQComponent() {
   const list = t.raw("items") as { question: string; answer: string }[];
   return (
     <motion.section
-      initial={{ y: 100, opacity: 0 }}
+      initial={{ y: "2vh", opacity: 0 }}
       whileInView={{ y: 0, opacity: 1 }}
       transition={{ ease: "easeInOut", duration: 0.75 }}
-      viewport={{ margin: "-425px", once: true }}
-      className="mx-auto w-full max-w-3xl px-6 py-56"
+      viewport={{ amount: 0.5, once: true }}
+      className="mx-auto my-96 w-full max-w-3xl px-6"
     >
       <h2 className="mb-24 text-center text-3xl font-bold">{t("title")}</h2>
       <Accordion
