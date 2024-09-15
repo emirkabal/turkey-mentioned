@@ -1,32 +1,28 @@
-"use client";
+'use client'
 
-import Flag from "@/app/assets/images/landing/flag.svg";
-import BannedRobloxCharacter from "@/app/assets/images/landing/tr-bannedrobloxsad-character.png";
-import Image from "next/image";
-import MouseIcon from "@/app/assets/icons/mouse.svg";
-import FAQComponent from "@/components/faq";
+import Flag from '@/app/assets/images/landing/flag.svg'
+import BannedRobloxCharacter from '@/app/assets/images/landing/tr-bannedrobloxsad-character.png'
+import Image from 'next/image'
+import MouseIcon from '@/app/assets/icons/mouse.svg'
+import FAQComponent from '@/components/faq'
 
-import { motion } from "framer-motion";
-import { useTranslations, useLocale } from "next-intl";
-import LanguageSwitcher from "@/components/language-switcher";
+import { motion } from 'framer-motion'
+import { useTranslations, useLocale } from 'next-intl'
 
 export default function Home() {
-  const t = useTranslations("home");
-  const locale = useLocale();
+  const t = useTranslations('home')
+  const locale = useLocale()
 
   return (
     <>
-      <div className="fixed bottom-0 right-0 p-6">
-        <LanguageSwitcher />
-      </div>
       <section className="flex h-screen flex-col items-center justify-center">
         <motion.div
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ ease: "easeInOut", duration: 0.8, delay: 0.5 }}
+          transition={{ ease: 'easeInOut', duration: 0.8, delay: 0.5 }}
           className="group relative mx-auto h-auto w-24"
         >
-          <Flag className="mx-auto my-8 h-auto w-24 rounded-lg transition-opacity group-hover:opacity-0" />
+          <Flag className="mx-auto my-8 h-auto w-24 rounded-2xl transition-opacity group-hover:opacity-0" />
           <Image
             src={BannedRobloxCharacter}
             className="absolute top-1/2 mx-auto h-auto w-24 -translate-y-1/2 rounded-lg opacity-0 transition-opacity group-hover:opacity-100"
@@ -39,10 +35,10 @@ export default function Home() {
           <motion.h1
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
-            transition={{ ease: "easeInOut", duration: 0.75 }}
+            transition={{ ease: 'easeInOut', duration: 0.75 }}
             className="text-center text-4xl font-bold lg:text-7xl"
           >
-            {t.rich("title", {
+            {t.rich('title', {
               br: () => <br />,
               cool: (chunks) => (
                 <motion.span
@@ -59,27 +55,27 @@ export default function Home() {
           <motion.p
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
-            transition={{ ease: "easeInOut", duration: 0.75, delay: 1 }}
+            transition={{ ease: 'easeInOut', duration: 0.75, delay: 1 }}
             className="mx-auto max-w-lg dark:text-zinc-300"
           >
-            {t("description")}
+            {t('description')}
           </motion.p>
           <div>
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ ease: "easeInOut", duration: 0.75, delay: 1.5 }}
+              transition={{ ease: 'easeInOut', duration: 0.75, delay: 1.5 }}
               className="mt-4 inline-block rounded-full border-2 border-red-400 p-4 font-medium text-red-400"
             >
-              {t("coming-soon")}
+              {t('coming-soon')}
             </motion.div>
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 0.5 }}
-              transition={{ ease: "easeInOut", duration: 0.75, delay: 1.8 }}
+              transition={{ ease: 'easeInOut', duration: 0.75, delay: 1.8 }}
               className="mt-24 opacity-50"
             >
-              {t("scroll")}
+              {t('scroll')}
               <MouseIcon className="mx-auto mt-4 h-8 w-auto" />
             </motion.p>
           </div>
@@ -87,16 +83,16 @@ export default function Home() {
       </section>
       <section className="mx-auto mt-24 max-w-lg space-y-72 lg:max-w-5xl lg:space-y-96">
         <motion.div
-          initial={{ x: "2vw", opacity: 0 }}
+          initial={{ x: '2vw', opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
-          transition={{ ease: "easeInOut", duration: 0.8 }}
+          transition={{ ease: 'easeInOut', duration: 0.8 }}
           viewport={{ amount: 0.5, once: true }}
           className="flex flex-col-reverse items-center justify-between gap-12 text-center lg:flex-row lg:gap-24 lg:text-left"
         >
           <div className="p-4 lg:w-1/2">
-            <h2 className="mb-4 text-3xl font-bold">{t("feature.1.title")}</h2>
+            <h2 className="mb-4 text-3xl font-bold">{t('feature.1.title')}</h2>
             <p className="text-lg dark:text-zinc-300">
-              {t("feature.1.description")}
+              {t('feature.1.description')}
             </p>
           </div>
           <div className="flex justify-center p-4 lg:w-1/2">
@@ -110,16 +106,16 @@ export default function Home() {
         </motion.div>
 
         <motion.div
-          initial={{ x: "-2vw", opacity: 0 }}
+          initial={{ x: '-2vw', opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
-          transition={{ ease: "easeInOut", duration: 0.8 }}
+          transition={{ ease: 'easeInOut', duration: 0.8 }}
           viewport={{ amount: 0.5, once: true }}
           className="flex flex-col-reverse items-center justify-between gap-12 text-center lg:flex-row-reverse lg:gap-24 lg:text-left"
         >
           <div className="p-4 lg:w-1/2">
-            <h2 className="mb-4 text-3xl font-bold">{t("feature.2.title")}</h2>
+            <h2 className="mb-4 text-3xl font-bold">{t('feature.2.title')}</h2>
             <p className="text-lg dark:text-zinc-300">
-              {t("feature.2.description")}
+              {t('feature.2.description')}
             </p>
           </div>
           <div className="flex justify-center p-4 lg:w-1/2">
@@ -133,16 +129,16 @@ export default function Home() {
         </motion.div>
 
         <motion.div
-          initial={{ x: "2vw", opacity: 0 }}
+          initial={{ x: '2vw', opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
-          transition={{ ease: "easeInOut", duration: 0.8 }}
+          transition={{ ease: 'easeInOut', duration: 0.8 }}
           viewport={{ amount: 0.5, once: true }}
           className="flex flex-col-reverse items-center justify-between gap-12 text-center lg:flex-row lg:gap-24 lg:text-left"
         >
           <div className="p-4 lg:w-1/2">
-            <h2 className="mb-4 text-3xl font-bold">{t("feature.3.title")}</h2>
+            <h2 className="mb-4 text-3xl font-bold">{t('feature.3.title')}</h2>
             <p className="text-lg dark:text-zinc-300">
-              {t("feature.3.description")}
+              {t('feature.3.description')}
             </p>
           </div>
           <div className="flex justify-center p-4 lg:w-1/2">
@@ -164,7 +160,7 @@ export default function Home() {
               Turkey Mentioned © {new Date().getFullYear()}. All rights reserved.
             </p> */}
           <p className="text-center dark:text-zinc-300">
-            Created by{" "}
+            Created by{' '}
             <a
               className="hover:underline dark:text-white"
               target="_"
@@ -177,5 +173,5 @@ export default function Home() {
         </div>
       </footer>
     </>
-  );
+  )
 }
