@@ -1,27 +1,28 @@
-"use client";
+'use client'
 
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion";
+} from '@/components/ui/accordion'
 
-import { motion } from "framer-motion";
-import { useTranslations } from "next-intl";
+import { motion } from 'framer-motion'
+import { useTranslations } from 'next-intl'
 
 export default function FAQComponent() {
-  const t = useTranslations("faq");
-  const list = t.raw("items") as { question: string; answer: string }[];
+  const t = useTranslations('faq')
+  const list = t.raw('items') as { question: string; answer: string }[]
   return (
     <motion.section
-      initial={{ y: "2vh", opacity: 0 }}
+      initial={{ y: '2vh', opacity: 0 }}
       whileInView={{ y: 0, opacity: 1 }}
-      transition={{ ease: "easeInOut", duration: 0.75 }}
+      transition={{ ease: 'easeInOut', duration: 0.75 }}
       viewport={{ amount: 0.5, once: true }}
-      className="mx-auto my-96 w-full max-w-3xl px-6"
+      className="mx-auto my-96 w-full max-w-3xl scroll-mt-32 px-6"
+      id="faq"
     >
-      <h2 className="mb-24 text-center text-3xl font-bold">{t("title")}</h2>
+      <h2 className="mb-24 text-center text-3xl font-bold">{t('title')}</h2>
       <Accordion
         type="single"
         collapsible
@@ -52,5 +53,5 @@ export default function FAQComponent() {
         ))}
       </Accordion>
     </motion.section>
-  );
+  )
 }

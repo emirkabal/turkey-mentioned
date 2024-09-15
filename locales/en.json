@@ -8,6 +8,11 @@
     "language-selection": "Language Selection",
     "switch-to": "Switch to {name}"
   },
+  "header": {
+    "home": "Home",
+    "faq": "FAQ",
+    "popular-mentions": "Popular Mentions"
+  },
   "home": {
     "title": "Welcome to the <cool>Turkey Mentioned</cool>",
     "description": "Turkey-Mentioned is a popular Turkish internet meme where users flood comment sections with patriotic messages. Discover iconic Turkey-Mentioned texts and share them with a click.",
@@ -52,6 +57,36 @@
         "answer": "Not at all! While the meme is rooted in Turkish culture, anyone can enjoy, share, and explore the memes. It’s a fun way to learn about Turkish internet humor and engage with the community."
       }
     ]
+  },
+  "popular-mentions": {
+    "title": "Popular Mentions",
+    "description": "Find the most mentioned items in the community. Click to copy the best mention.",
+    "search-bar-placeholder": "Search for mentions...",
+    "click-to-copy": "Click to Copy",
+    "copied": "Copied!",
+    "no-results": "No results found.",
+    "tag": {
+      "classic": "Classic",
+      "economic": "Economic",
+      "international": "International",
+      "notext": "No Text",
+      "only-flag": "Only Flag",
+      "wolves": "Wolves",
+      "friend": "Friend",
+      "kebab": "Kebab"
+    },
+    "mention": {
+      "rock-furnace": "Rock Furnace",
+      "classic-wolf-style": "Classic Wolf Style",
+      "economic-wolf": "Economic Wolf",
+      "notext": "No Text",
+      "mentioned-economy-included": "Mentioned Economy Included",
+      "national-march-included": "National March Included",
+      "international-style": "International Style",
+      "only-flag": "Only Flag",
+      "friend-flag": "Friend Flag",
+      "kebaaab": "Kebaaab"
+    }
   },
   "not-found-page": {
     "title": "404 Not Found",
