@@ -1,15 +1,21 @@
 import { Button } from '@/components/ui/button'
 import { Link } from '@/i18n/routing'
+import { useTranslations } from 'next-intl'
 
 export default function Header() {
+  const t = useTranslations('header')
   const routes = [
     {
-      name: 'Home',
+      name: t('home'),
       href: '/',
     },
     {
-      name: 'Mentioned',
-      href: '/mentioned',
+      name: t('popular-mentions'),
+      href: '/popular-mentions',
+    },
+    {
+      name: t('faq'),
+      href: '/#faq',
     },
   ]
 
