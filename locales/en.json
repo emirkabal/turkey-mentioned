@@ -8,6 +8,11 @@
     "language-selection": "Language Selection",
     "switch-to": "Switch to {name}"
   },
+  "header": {
+    "home": "Home",
+    "faq": "FAQ",
+    "popular-mentions": "Popular Mentions"
+  },
   "home": {
     "title": "Welcome to the <cool>Turkey Mentioned</cool>",
     "description": "Turkey-Mentioned is a popular Turkish internet meme where users flood comment sections with patriotic messages. Discover iconic Turkey-Mentioned texts and share them with a click.",

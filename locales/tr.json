@@ -8,6 +8,11 @@
     "language-selection": "Dil Seçimi",
     "switch-to": "{name} diline geç"
   },
+  "header": {
+    "home": "Ana sayfa",
+    "faq": "SSS",
+    "popular-mentions": "Popüler Bahsedilmeler"
+  },
   "home": {
     "title": "<cool>Turkey Mentioned</cool><br></br>'e hoş geldin",
     "description": "Turkey-Mentioned, kullanıcıların yorum bölümlerini vatansever mesajlarla doldurduğu popüler bir Türk internet memesidir. İkonik Turkey-Mentioned metinlerini keşfedin ve bir tıkla paylaşın.",
