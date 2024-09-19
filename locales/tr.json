@@ -1,7 +1,7 @@
 {
   "metedata": {
     "title": "Turkey Mentioned",
-    "description": "Discover and share Turkey-Mentioned, the popular Turkish internet meme filled with Turkish flags and wolf howls. Explore iconic meme texts and share them with a click."
+    "description": "Turkey-Mentioned'ı keşfedin ve paylaşın; Türk bayrakları ve kurt ulumalarıyla dolu popüler Türk internet memesi. İkonik meme metinlerini keşfedin ve bir tıkla paylaşın."
   },
   "language-switcher": {
     "switch-language": "Dili Değiştir",
@@ -56,6 +56,37 @@
         "answer": "Meme, internet üzerinde hızla yayılan ve kullanıcılar arasında paylaşılan, genellikle esprili veya ironik içeriklerdir. Türkçede bu terim, zaman zaman 'caps' veya 'internet esprisi' olarak da kullanılmaktadır."
       }
     ]
+  },
+  "popular-mentions": {
+    "title": "Popüler Bahsedilmeler",
+    "description": "Toplulukta en çok bahsedilen öğeleri bulun. En iyi bahsedilmeyi kopyalamak için tıklayın.",
+    "search-bar-placeholder": "Bahsedilmeleri arayın...",
+    "click-to-copy": "Kopyalamak için tıklayın",
+    "copied": "Kopyalandı!",
+    "no-results": "Sonuç bulunamadı.",
+    "tag": {
+      "classic": "Klasik",
+      "economic": "Ekonomik",
+      "international": "Uluslararası",
+      "notext": "Metinsiz",
+      "only-flag": "Sadece Bayrak",
+      "wolves": "Kurtlar",
+      "kebab": "Kebap",
+      "friend": "Dost"
+    },
+    "mention": {
+      "rock-furnace": "Taş Fırın Uluması",
+      "classic-wolf-style": "Klasik Kurt Stili",
+      "economic-wolf": "Ekonomik Kurt",
+      "notext": "Metin Yok",
+      "mentioned-economy-included": "Ekonomik Uluma",
+      "national-march-included": "İstiklal Marşı Eşliğinde",
+      "international-style": "Uluslararası Stil",
+      "only-flag": "Sadece Bayrak",
+      "kebaaab": "Kebaaap",
+      "friend-flag": "Dost Bayrağı",
+      "passing-to-friend": "Dosta Paslama"
+    }
   },
   "not-found-page": {
     "title": "404 Sayfa Bulunamadı",
